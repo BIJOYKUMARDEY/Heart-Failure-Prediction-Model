@@ -1,4 +1,4 @@
-#Import the data of credit card
+#Import the data of credit card from the link "https://www.kaggle.com/mlg-ulb/creditcardfraud/download"
 df<-read.csv(file.choose(),header=T)
 #checking the data structure
 str(df)
